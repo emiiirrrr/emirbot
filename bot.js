@@ -72,17 +72,39 @@ client.on('message', msg => {
   }
 });
 
+client.on('message', message => {
+  if (message.content.toLocaleLowerCase() === 'adem in') {
+    message.delete(message.author)
+    const adem1 = new MessageEmbed()
+    .setAuthor('Adem In')
+    .setColor("BLUE")
+    .setImage('https://media.giphy.com/media/3cFxVa3KF0NLJHlVMQ/giphy.gif')
+    message.channel.send(adem1)
+  }
+})
+
 client.on('message', msg => {
   if (msg.content.toLowerCase() === 'kaaninho out') {
     msg.delete(msg.author)
     const kaan = new MessageEmbed()
     .setTitle('***Bravo six going dark...***')
     .setAuthor('Kaaninho Out')
-    .setColor("RANDOM")
+    .setColor("BLACK")
     .setImage('https://media.giphy.com/media/jQGE7t0qcFYzr3EHsF/giphy.gif');
     msg.channel.send(kaan)
   }
 });
+
+client.on('message', message => {
+  if (message.content.toLocaleLowerCase() === 'kaaninho in') {
+    message.delete(message.author)
+    const kaan1 = new MessageEmbed()
+    .setAuthor('Kaan In')
+    .setColor("GREY")
+    .setImage('https://media.giphy.com/media/OLztTgaKKvcCVarFxR/giphy.gif')
+    message.channel.send(kaan1)
+  }
+})
 
 client.on('message', msg => {
   if (msg.content.toLowerCase() === 'ali out') {
@@ -90,7 +112,7 @@ client.on('message', msg => {
     const ali = new MessageEmbed()
     .setAuthor('Ali Out')
     .setColor("PINK")
-    .setImage('https://media.giphy.com/media/jNTPfg97NZk0pCvcbD/giphy.gif');
+    .setImage('https://media.giphy.com/media/bHCNR7A5KOepkVRdCV/giphy.gif');
     msg.channel.send(ali)
   }
 });
@@ -149,6 +171,18 @@ client.on('message', message => {
     .setColor("RED")
     .setImage('https://media.giphy.com/media/s7cP0gvnf4uy1RwCLg/giphy.gif')
     message.channel.send(elifnaz)
+  }
+})
+
+client.on('message', message => {
+  if (message.content.toLocaleLowerCase() === 'yogurt in') {
+    message.delete(message.author)
+    const elifnaz1 = new MessageEmbed()
+    .setTitle('kraliçeniz onlayn')
+    .setAuthor('Yogurt In')
+    .setColor("RED")
+    .setImage('https://media.giphy.com/media/PN0QIlE3sg6lhYCa9A/giphy.gif')
+    message.channel.send(elifnaz1)
   }
 })
 
