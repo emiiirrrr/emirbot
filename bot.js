@@ -99,7 +99,7 @@ client.on('message', message => {
   if (message.content.toLocaleLowerCase() === 'elif out') {
     message.delete(message.author)
     const elif = new MessageEmbed()
-    .setTitle('I love you 300')
+    .setTitle('I love you 3000')
     .setAuthor('Elif Out')
     .setColor("RED")
     .setImage('https://media1.tenor.com/images/300209b23f0e0470931912cdaf6924de/tenor.gif')
