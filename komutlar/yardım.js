@@ -16,7 +16,7 @@ module.exports = {
       '`avatar` `info` `insta` `istatistik` `ping` `sunucu` `yt` `twitch`'
     ])
     .addField('Eğlence Komutları :',[
-      '`fuck` `kart` `meme` `sina` `napim` `şaka` `zar`'
+      '`fuck` `kart` `meme` `sina` `napim` `şaka` `zar` `simp` `s is for`'
     ])
     .addField('Metoli Büyüleri (∩^o^)⊃━☆゜.* :',[
       '`kutsa` `lanetle` `söndür` `yargıla`'
