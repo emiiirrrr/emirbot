@@ -231,6 +231,17 @@ client.on('message', message => {
 })
 
 client.on('message', message => {
+  if (message.content.toLocaleLowerCase() === 'elif in') {
+    message.delete(message.author)
+    const elif1 = new MessageEmbed()
+    .setAuthor('Elif In')
+    .setColor("RED")
+    .setImage('https://media.giphy.com/media/iD5uDpic4TfK9qtkhd/giphy.gif')
+    message.channel.send(elif1)
+  }
+})
+
+client.on('message', message => {
   if (message.content.toLocaleLowerCase() === 'ömer in') {
     message.delete(message.author)
     const ömer1 = new MessageEmbed()
@@ -249,6 +260,17 @@ client.on('message', message => {
     .setColor("RED")
     .setImage('https://media.giphy.com/media/sMFh8lKgGlvNjpT98Y/giphy.gif')
     message.channel.send(enes1)
+  }
+})
+
+client.on('message', message => {
+  if (message.content.toLocaleLowerCase() === 'ali in') {
+    message.delete(message.author)
+    const ali1 = new MessageEmbed()
+    .setAuthor('Ali In')
+    .setColor("RED")
+    .setImage('https://i.hizliresim.com/kTf5Ub.png')
+    message.channel.send(ali1)
   }
 })
 
