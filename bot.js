@@ -325,7 +325,7 @@ client.on('message', message => {
     const özge1 = new MessageEmbed()
     .setAuthor('Özge In')
     .setColor("RED")
-    .setImage('https://media.giphy.com/media/v3vtjoZuTupwpFUbca/giphy.gif')
+    .setImage('https://media.giphy.com/media/OvLVmnemhHp7Kr5gn8/giphy.gif')
     message.channel.send(özge1)
   }
 })
