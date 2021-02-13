@@ -48,7 +48,7 @@ client.on('ready', () => {
   console.log(`Canım yavrum ${client.user.tag} şu an da açık.`)
   const durumlar = [
     "Yardım için -> e?yardım",
-    "Emiiirrr⌁#6152",
+    "emiiirrr#0001",
     `${client.guilds.cache.size} Sunucu`
   ]
   setInterval(function () {
